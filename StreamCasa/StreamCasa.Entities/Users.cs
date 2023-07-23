@@ -19,6 +19,8 @@ namespace StreamCasa.Entities
         public string Email { get; private set; }
         public string Password { get; private set; }
         public DateTime DateRegistry { get; set; }
+        public List<Profiles> Profiles { get; set; }
+        public List<Favorites> Favorites { get; set; }
 
         public void SetName(string name)
         {

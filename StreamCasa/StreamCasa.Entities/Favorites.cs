@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace StreamCasa.Entities
 {
-    public class Videos : IEntity
+    public class Favorites : IEntity
     {
         public Guid Id { get; set; }
-        public string Title { get; set; }
-        public string Source { get; set; }
-        public string Description { get; set; }
-        public List<UsersVideos> UsersVideos { get; set; }
+        public int CourseId { get; set; }
+        public int UserId { get; set; }
+        public Courses Course { get; set; }
+        public Users User { get; set; }
     }
 }

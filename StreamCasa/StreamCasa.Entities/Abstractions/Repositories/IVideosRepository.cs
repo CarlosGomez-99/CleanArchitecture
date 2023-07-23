@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StreamCasa.Entities
+namespace StreamCasa.Entities.Abstractions.Repositories
 {
-    internal class Favorities
+    public interface IVideosRepository : IBaseRepository<Videos>
     {
     }
 }
