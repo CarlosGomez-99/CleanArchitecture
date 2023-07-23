@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Entities", "StreamCasa.Entities\StreamCasa.Entities.csproj", "{D2EE67FA-1332-47F1-B9E6-5F2BF74560A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCasa.Entities", "StreamCasa.Entities\StreamCasa.Entities.csproj", "{D2EE67FA-1332-47F1-B9E6-5F2BF74560A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationBusinessRules", "ApplicationBusinessRules", "{3C39BC38-B6B5-4BE4-81BC-2DF9D700B99E}"
 EndProject
@@ -13,7 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesAdapters", "Inter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworksAndDrivers", "FrameworksAndDrivers", "{FCEEC943-CE04-453B-AC02-3F94397AF9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Abstractions", "StreamCasa.Abstractions\StreamCasa.Abstractions.csproj", "{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCasa.Abstractions", "StreamCasa.Abstractions\StreamCasa.Abstractions.csproj", "{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Repository.EFCore", "StreamCasa.Repository.EFCore\StreamCasa.Repository.EFCore.csproj", "{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Repository.Dapper", "StreamCasa.Repository.Dapper\StreamCasa.Repository.Dapper.csproj", "{6E237436-F5D6-4A0F-A087-8A98CD1988E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{6CA468D8-182A-4098-9B60-8AF8D0E2745F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,14 @@ Global
 		{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E237436-F5D6-4A0F-A087-8A98CD1988E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E237436-F5D6-4A0F-A087-8A98CD1988E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E237436-F5D6-4A0F-A087-8A98CD1988E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E237436-F5D6-4A0F-A087-8A98CD1988E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D2EE67FA-1332-47F1-B9E6-5F2BF74560A1} = {817DD20A-CFA0-4E1D-BDBE-44D40EF1C9B8}
 		{6469FE1C-8C7E-4DD9-B857-0E7A30E23D9F} = {817DD20A-CFA0-4E1D-BDBE-44D40EF1C9B8}
+		{FA64C451-D0DB-4C21-B9BC-7C6C14ACF6D1} = {6CA468D8-182A-4098-9B60-8AF8D0E2745F}
+		{6E237436-F5D6-4A0F-A087-8A98CD1988E1} = {6CA468D8-182A-4098-9B60-8AF8D0E2745F}
+		{6CA468D8-182A-4098-9B60-8AF8D0E2745F} = {2E60C06F-FEF2-4688-B297-ACE7B970F6B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3C2248-0EC2-4309-BD43-31AE006BA4E7}
