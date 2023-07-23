@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "StreamCasa.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/StreamCasa.Abstractions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StreamCasa.Abstractions.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "StreamCasa.Abstractions/1.0.0": {
-      "type": "project",
-      "path": "../StreamCasa.Abstractions/StreamCasa.Abstractions.csproj",
-      "msbuildProject": "../StreamCasa.Abstractions/StreamCasa.Abstractions.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "StreamCasa.Abstractions >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\drcgo\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Entities\\StreamCasa.Entities.csproj",
-      "projectName": "StreamCasa.Entities",
-      "projectPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Entities\\StreamCasa.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
+      "projectName": "StreamCasa.Abstractions",
+      "projectPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
       "packagesPath": "C:\\Users\\drcgo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Entities\\obj\\",
+      "outputPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -58,11 +39,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
