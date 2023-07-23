@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj": {}
+    "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj": {
+    "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
         "projectName": "StreamCasa.Abstractions",
-        "projectPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
+        "projectPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa.Abstractions\\StreamCasa.Abstractions.csproj",
         "packagesPath": "C:\\Users\\drcgo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa\\StreamCasa.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\drcgo\\Educacion-Platzi\\ArquitecturaLimpiaCero\\StreamCasa.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
