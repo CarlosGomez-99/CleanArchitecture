@@ -10,6 +10,11 @@
     <PackageReference Include="Dapper" Version="2.0.143" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StreamCasa.Entities\StreamCasa.Entities.csproj" />
   </ItemGroup>
 
 </Project>
