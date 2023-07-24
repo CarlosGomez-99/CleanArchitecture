@@ -17,7 +17,7 @@ namespace StreamCasa.Repository.EFCore
             _dbContext = context;
         }
 
-        public async Task<Profiles> AddOrUpdate(Profiles profiles)
+        public async Task<Profiles> Add(Profiles profiles)
         {
             if (profiles.Id != Guid.Empty)
             {

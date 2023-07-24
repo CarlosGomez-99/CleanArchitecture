@@ -17,7 +17,7 @@ namespace StreamCasa.Repository.EFCore
             _dbContext = context;
         }
 
-        public async Task<Favorites> AddOrUpdate(Favorites favorites)
+        public async Task<Favorites> Add(Favorites favorites)
         {
             if (favorites.Id != Guid.Empty)
             {

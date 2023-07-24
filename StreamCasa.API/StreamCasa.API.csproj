@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StreamCasa.Abstractions\StreamCasa.Abstractions.csproj" />
+    <ProjectReference Include="..\StreamCasa.Builders\StreamCasa.Builders.csproj" />
+    <ProjectReference Include="..\StreamCasa.Entities\StreamCasa.Entities.csproj" />
+    <ProjectReference Include="..\StreamCasa.Interactors.Abstractions\StreamCasa.Interactors.Abstractions.csproj" />
+    <ProjectReference Include="..\StreamCasa.Presenters\StreamCasa.Presenters.csproj" />
+    <ProjectReference Include="..\StreamCasa.Repository.Dapper\StreamCasa.Repository.Dapper.csproj" />
+    <ProjectReference Include="..\StreamCasa.Repository.EFCore\StreamCasa.Repository.EFCore.csproj" />
+    <ProjectReference Include="..\StreamCasa.Videos.UseCases\StreamCasa.Videos.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>

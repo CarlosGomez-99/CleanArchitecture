@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Presenters", "StreamCasa.Presenters\StreamCasa.Presenters.csproj", "{43DC276E-C5EE-4F6F-963A-EAAE405F3C28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.API", "StreamCasa.API\StreamCasa.API.csproj", "{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{43DC276E-C5EE-4F6F-963A-EAAE405F3C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DC276E-C5EE-4F6F-963A-EAAE405F3C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DC276E-C5EE-4F6F-963A-EAAE405F3C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{6212495B-0AE6-4E21-A0EB-A57F9E4E6157} = {3C39BC38-B6B5-4BE4-81BC-2DF9D700B99E}
 		{634CA35E-F86A-4012-9AAF-F73B3C286A7C} = {2E60C06F-FEF2-4688-B297-ACE7B970F6B0}
 		{43DC276E-C5EE-4F6F-963A-EAAE405F3C28} = {634CA35E-F86A-4012-9AAF-F73B3C286A7C}
+		{32CEB3A2-4BD0-49D0-BBFB-D3186196AD04} = {FCEEC943-CE04-453B-AC02-3F94397AF9F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3C2248-0EC2-4309-BD43-31AE006BA4E7}

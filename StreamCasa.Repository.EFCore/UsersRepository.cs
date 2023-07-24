@@ -18,7 +18,7 @@ namespace StreamCasa.Repository.EFCore
             _dbContext = context;
         }
 
-        public async Task<Users> AddOrUpdate(Users users)
+        public async Task<Users> Add(Users users)
         {
             if (users.Id != Guid.Empty)
             {

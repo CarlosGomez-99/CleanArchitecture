@@ -18,16 +18,9 @@ namespace StreamCasa.Repository.EFCore
             _dbContext = context;
         }
 
-        public async Task<Videos> AddOrUpdate(Videos videos)
+        public async Task<Videos> Add(Videos videos)
         {
-            if (videos.Id != Guid.Empty)
-            {
-                _dbContext.Videos.Update(videos);
-            }
-            else
-            {
-                await _dbContext.Videos.AddAsync(videos);
-            }
+            await _dbContext.Videos.AddAsync(videos);
             await _dbContext.SaveChangesAsync();
             return videos;
         }

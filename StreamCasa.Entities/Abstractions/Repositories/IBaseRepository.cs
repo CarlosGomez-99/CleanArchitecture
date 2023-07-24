@@ -9,7 +9,7 @@ namespace StreamCasa.Entities.Abstractions.Repositories
 {
     public interface IBaseRepository<TEntity> where TEntity : IEntity
     {
-        public Task<TEntity> AddOrUpdate(TEntity entity);
+        public Task<TEntity> Add(TEntity entity);
         public Task<TEntity> Delete(TEntity entity);
     }
 }

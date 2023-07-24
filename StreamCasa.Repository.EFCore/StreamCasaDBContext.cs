@@ -5,6 +5,11 @@ namespace StreamCasa.Repository.EFCore
 {
     public class StreamCasaDBContext : DbContext
     {
+        public StreamCasaDBContext(DbContextOptions<StreamCasaDBContext> options) : base(options)
+        {
+
+        }
+
         public DbSet<Courses> Courses { get; set; }
         public DbSet<Favorites> Favorites { get; set; }
         public DbSet<Profiles> Profiles { get; set; }

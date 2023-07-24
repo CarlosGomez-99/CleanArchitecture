@@ -30,7 +30,7 @@ namespace StreamCasa.Videos.UseCases
                 ToAdd.Title = "Para mayores de 16";
             }
             var ToRegistry = _videosBuilder.Convert(ToAdd);
-            await _videosRepository.AddOrUpdate(ToRegistry);
+            await _videosRepository.Add(ToRegistry);
             await _addVideosOutputPort.Handle(ToAdd);
         }
     }

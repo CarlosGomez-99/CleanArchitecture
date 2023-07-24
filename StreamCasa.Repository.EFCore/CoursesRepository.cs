@@ -18,7 +18,7 @@ namespace StreamCasa.Repository.EFCore
             _dbContext = context;
         }
 
-        public async Task<Courses> AddOrUpdate(Courses courses)
+        public async Task<Courses> Add(Courses courses)
         {
             if (courses.Id != Guid.Empty)
             {
