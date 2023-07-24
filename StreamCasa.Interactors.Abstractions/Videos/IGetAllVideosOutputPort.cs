@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace StreamCasa.Interactors.Abstractions.Videos
 {
-    public interface IAddVideosOutputPort
+    public interface IGetAllVideosOutputPort
     {
-        //VideosDTO Content { get; }
-        Task Handle(VideosDTO ToAdd);
+        Task Handle(List<VideosDTO> videos);
     }
 }

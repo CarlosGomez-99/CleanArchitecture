@@ -13,6 +13,7 @@ namespace StreamCasa.Videos.UseCases
         public static IServiceCollection AddVideosUseCases(this IServiceCollection services)
         {
             services.AddScoped<IAddVideosInputPort, AddVideos>();
+            services.AddScoped<IGetAllVideosInputPort, GetAllVideos>();
             return services;
         }
     }
