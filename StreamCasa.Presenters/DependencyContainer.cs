@@ -14,6 +14,7 @@ namespace StreamCasa.Presenters
         {
             services.AddScoped<IAddVideosOutputPort, CreateVideosPresenter>();
             services.AddScoped<IGetAllVideosOutputPort, GetAllVideosPresenter>();
+            services.AddScoped<IGetVideosByTitleOutputPort, GetVideosByTitlePresenter>();
             return services;
         }
     }

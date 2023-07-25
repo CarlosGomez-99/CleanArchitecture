@@ -14,6 +14,7 @@ namespace StreamCasa.Videos.UseCases
         {
             services.AddScoped<IAddVideosInputPort, AddVideos>();
             services.AddScoped<IGetAllVideosInputPort, GetAllVideos>();
+            services.AddScoped<IGetVideosByTitleInputPort, GetVideosByTitle>();
             return services;
         }
     }

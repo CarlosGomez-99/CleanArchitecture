@@ -23,7 +23,7 @@ namespace StreamCasa.Videos.UseCases
         }
         public async Task Handle()
         {
-            var videos =await _videosRepository.GetAll();
+            var videos = await _videosRepository.GetAll();
             var ToList = _videosBuilder.Convert(videos);
             await _getAllVideosOutputPort.Handle(ToList);
         }

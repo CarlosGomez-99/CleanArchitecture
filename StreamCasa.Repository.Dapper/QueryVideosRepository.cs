@@ -20,14 +20,15 @@ namespace StreamCasa.Repository.Dapper
 
         public async Task<List<Videos>> GetAllVideosByTitle(string Title)
         {
-            var dictionary = new Dictionary<string, string>()
+            var dictionary = new Dictionary<string, object>()
             {
                 {
                     "@Title", Title
                 }
             };
             string Query = "select * from videos where title = @Title";
-            var response = await connection.SqlConnection.QueryAsync<Videos>(Query, dictionary);
+            var parameters = new DynamicParameters(dictionary);
+            var response = await connection.SqlConnection.QueryAsync<Videos>(Query, parameters);
             return response.ToList();
         }
     }
